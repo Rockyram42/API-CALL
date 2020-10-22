@@ -1,0 +1,120 @@
+*{
+  outline: none !important;
+}
+/* SignIn User */
+
+.user-content .name-checker {
+  font-size: 48px;
+  font-weight: 600;
+  color: #5c5a5a;
+  font-family: "Raleway", sans-serif;
+}
+.user-content .site-description {
+  text-align: center;
+  font-size: 18px;
+  line-height: 0.5;
+  color: #ff2e35;
+  margin-top: -38px;
+  font-family: "Baloo 2", cursive;
+}
+.Side-col {
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+}
+
+.signin-Form {
+  padding: 54px 64px;
+  border-radius: 0.75rem;
+  width: 420px;
+  margin: 0 auto;
+  /* box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3); */
+}
+
+.signin-Form .form-Head {
+  color: #00b0ff;
+  font-size: 38px;
+  font-family: "Baloo 2", cursive;
+}
+.signin-Form .MuiButton-containedPrimary{
+    background-color: #00b0ff;
+}
+.signin-Form .MuiButton-containedPrimary:hover {
+    background-color: #0081cb;
+}
+.signin-Form label {
+  font-family: "Baloo 2", cursive;
+  font-size: 18px;
+  color: #808080;
+  font-weight: 400;
+}
+.signin-Form .form-control {
+  height: auto;
+}
+.signin-Create {
+  color: #0081cb !important;
+  font-size: 18px !important;
+  text-transform: lowercase !important;
+  font-weight: 400 !important;
+  font-family: "Raleway", sans-serif !important;
+}
+.sign-other {
+  color: #474747;
+  font-size: 20px !important;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.site-shower {
+  display: flex;
+  align-items: center;
+}
+.site-shower img {
+  width: 120px;
+  height: auto;
+}
+
+/* SignUp User */
+.side-colCreateAccount{
+  padding-top: 1.31rem;
+  padding-bottom: 1.31rem;
+}
+.create-signinForm{
+  padding: 54px 25px;
+}
+.create-signinForm .signin-Create{
+  padding: 0px 25px;
+}
+
+/* Transition */
+.notiFication{
+  border: 1px solid #474747;
+  border-radius: 0.125rem;
+  padding: 16px;
+}
+
+/* Loading */
+
+
+.loader {
+  width: 56px;
+  height: 56px;
+  border: 4px solid #717fe0;
+  border-radius: 50%;
+  position: absolute;
+  animation: loader-scale 1s ease-out infinite;
+  top: 50%;
+  left: 48%;
+  margin: -28px auto 0 auto; 
+  transform: translate(-50%, -50%);
+}
+
+@keyframes loader-scale {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 0; } 
+}
